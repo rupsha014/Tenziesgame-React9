@@ -6,7 +6,7 @@ export default function Die(props) {
     }
     return (
         <div
-            className="p-7 mt-3 mb-5 shadow-lg h-3 w-3 flex justify-center items-center cursor-pointer rounded-lg mb-3 bg-slate-100 font-bold text-lg"
+            className="p-7 mt-3 mb-5 shadow-lg h-3 w-3 flex justify-center items-center cursor-pointer rounded-lg  bg-slate-100 font-bold text-lg"
             style={styles}
             onClick={props.holdDice}
         >
