@@ -68,19 +68,19 @@ function App() {
   return (
     <main className='w-96 ml-auto mr-auto shadow-xl p-8 rounded-lg m-3'>
       <div>
-        <h1 className="text-4xl font-bold  ml-32 mb-4">Tenzies</h1>
+        <h1 className="text-4xl font-bold   ml-20 mb-4">Tenzies</h1>
       </div>
       <div>
         <p className="font-semibold text-lg">Roll until all dice are the same.
           Click each die to freeze it at its current value between rolls.</p>
       </div>
 
-      <div className="grid-rows-2">
+      <div className="flex flex-wrap  space-x-1">
         {diceElements}
       </div>
       <div>
         <button
-          className="p-3 bg-blue-600 ml-36 pl-10 pr-10 text-lg font-bold text-white rounded-lg"
+          className="p-3 bg-blue-600 ml-20 mt-4 pl-10 pr-10 text-lg font-bold text-white rounded-lg"
           onClick={rollDice}
         >
           {tenzies ? "New Game" : "Roll"}
